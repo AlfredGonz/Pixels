@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Leyendas Mesoaméricanas</string>
+
+    <string name="conocenos">Somos una empresa radicada en El Salvador con capital 100% salvadoreño,
+        ofrecemos productos y servicios de Tecnología de Información construidos con niveles internacionales de calidad. \n\n
+        Constituidos desde el año 2011, nuestro principal objetivo es la satisfacción de las necesidades de nuestros clientes.\n\n
+        Nuestra prioridad es mantener nuestras soluciones a la vanguardia tecnológica; esto nos permítete ofrecer productos y
+        servicios de vanguardia y altos niveles de retorno de la inversión.
+    </string>
+    <string name="rosita">
+        Nombre: Rosita. \n\n
+       Género: Femenino. \n\n
+       Lugar de Origen: El Salvador. \n\n
+       Edad: 11 años. \n\n
+       Carácter: Alegre, positiva, ordenada, sincera, dinámica, paciente, aventurera, precavida
+    </string>
+
+    <string name="jose">
+       Género: Masculino. \n\n
+       Lugar de origen:  El Salvador. \n\n
+       Edad: 7 años. \n\n
+       Carácter: Inteligente, Infantil, Honesto, gracioso Alegre, Competidor.
+
+    </string>
+
+    <string name="doncatalino">
+       Género: Masculino. \n\n
+       Lugar de Origen: El Salvador. \n\n
+       Edad: 65 años. \n\n
+       Carácter: Amistoso, trabajador, culto, jovial, emotivo,
+       inteligente.
+    </string>
+
+    <string name="profguzman">
+        Género: Masculino. \n\n
+      Lugar de Origen: El Salvador \n\n
+      Edad: 33 años. \n\n
+      Carácter: Enojado, egoísta, mal humorado, sentimental, leal, Divorciado.
+    </string>
+
+    <string name="mama">
+      Género: Femenino. \n\n
+      Lugar de origen:  El Salvador. \n\n  
+      Edad: 38 años. \n\n
+      Carácter: Alegre, paciente, ordenada, cariñosa, trabajadora, tenaz, orgullosa.
+      disciplinada, sentimental.
+    </string>
+
+    <string name="elcipitio">
+      Género: Masculino. \n\n
+      Edad: No se sabe \n\n
+      Carácter: Alegre, Chistoso, travieso, desordenado, infantil,  egoísta, burlón, emocional,
+      temperamental.
+
+    </string>
+</resources>

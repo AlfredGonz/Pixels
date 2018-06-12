@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:src="@drawable/logoleyen" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:id="@+id/leyendas"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#02a388 "
+                android:text="LEYENDAS"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="Leyendas"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:id="@+id/personajes"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#fe423f  "
+                android:text="PERSONAJES"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="Personajes"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:id="@+id/conocenos"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#fecb2e"
+                android:text="CONOCENOS"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="Conocenos"/>
+
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+            android:id="@+id/horizontalcycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:icvp_scroll_duration="250"
+            app:icvp_center_page_scale_offset="30dp"
+            app:icvp_min_page_scale_offset="5dp"
+            app:icvp_max_page_scale="0.8"
+            app:icvp_min_page_scale="0.55"
+            app:icvp_medium_scaled="false"
+            />
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
