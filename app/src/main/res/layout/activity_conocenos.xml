@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Conocenos"
-    android:background="#616161">
+    android:background="@drawable/fondo2">
 
     <!--Conocenos-->
     <android.support.v7.widget.CardView
@@ -18,7 +18,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         app:cardBackgroundColor="#f7f6f7"
-        app:cardCornerRadius="2dp"
+        app:cardCornerRadius="5dp"
         app:cardElevation="2dp">
 
         <LinearLayout

@@ -33,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        lstImages.add(R.drawable.proximamente);
-        lstImages.add(R.drawable.leyendaspng);
-        lstImages.add(R.drawable.cuartopng);
-        //lstImages.add(R.drawable.pueblopng);
+        lstImages.add(R.drawable.imagen1);
+        lstImages.add(R.drawable.imagen2);
+        lstImages.add(R.drawable.imagen3);
+        lstImages.add(R.drawable.imagen4);
+        lstImages.add(R.drawable.imagen5);
     }
 
 
