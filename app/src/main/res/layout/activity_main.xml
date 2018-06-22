@@ -30,7 +30,9 @@
                 android:text="LEYENDAS"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
-                android:onClick="Leyendas"/>
+                android:onClick="Leyendas"
+                android:drawableTop="@drawable/videos"
+                />
 
             <Button
                 android:layout_width="150dp"
@@ -42,7 +44,8 @@
                 android:text="PERSONAJES"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
-                android:onClick="Personajes"/>
+                android:onClick="Personajes"
+                android:drawableTop="@drawable/personajes"/>
 
             <Button
                 android:layout_width="150dp"
@@ -54,7 +57,8 @@
                 android:text="CONOCENOS"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
-                android:onClick="Conocenos"/>
+                android:onClick="Conocenos"
+                android:drawableTop="@drawable/conocenos"/>
 
         </LinearLayout>
 

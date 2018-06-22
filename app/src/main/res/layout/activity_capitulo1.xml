@@ -7,9 +7,14 @@
     android:orientation="vertical"
     tools:context=".Capitulo1">
 
+    <!--Video de Youtube-->
     <com.google.android.youtube.player.YouTubePlayerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/youtube_view"></com.google.android.youtube.player.YouTubePlayerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
