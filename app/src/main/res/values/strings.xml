@@ -1,54 +1,28 @@
 <resources>
     <string name="app_name">Leyendas Mesoaméricanas</string>
 
+    <string name="banner_ad_unit_id">ca-app-pub-5429821590967595/4764610862</string>
+
     <string name="conocenos">Somos una empresa radicada en El Salvador con capital 100% salvadoreño,
         ofrecemos productos y servicios de Tecnología de Información construidos con niveles internacionales de calidad. \n\n
         Constituidos desde el año 2011.
     </string>
-    <string name="rosita">
-        Nombre: Rosita. \n\n
-       Género: Femenino. \n\n
-       Lugar de Origen: El Salvador. \n\n
-       Edad: 11 años. \n\n
-       Carácter: Alegre, positiva, ordenada, sincera, dinámica, paciente, aventurera, precavida
+
+    <string name="preview1">
+        Ella es Rosita ¿Qué nuevas aventuras le esperan? \n
+        Acompañanos a ver esta historia
     </string>
 
-    <string name="jose">
-       Género: Masculino. \n\n
-       Lugar de origen:  El Salvador. \n\n
-       Edad: 7 años. \n\n
-       Carácter: Inteligente, Infantil, Honesto, gracioso Alegre, Competidor.
-
+    <string name="preview2">
+        Rosita y José iban pasandopor el rio\n
+        y se encontraron con algo muy peculiar: \n
+        ¿Quién les estará lanzando petalos de flores a las mucchachas que lavaban?
     </string>
 
-    <string name="doncatalino">
-       Género: Masculino. \n\n
-       Lugar de Origen: El Salvador. \n\n
-       Edad: 65 años. \n\n
-       Carácter: Amistoso, trabajador, culto, jovial, emotivo,
-       inteligente.
-    </string>
-
-    <string name="profguzman">
-        Género: Masculino. \n\n
-      Lugar de Origen: El Salvador \n\n
-      Edad: 33 años. \n\n
-      Carácter: Enojado, egoísta, mal humorado, sentimental, leal, Divorciado.
-    </string>
-
-    <string name="mama">
-      Género: Femenino. \n\n
-      Lugar de origen:  El Salvador. \n\n  
-      Edad: 38 años. \n\n
-      Carácter: Alegre, paciente, ordenada, cariñosa, trabajadora, tenaz, orgullosa.
-      disciplinada, sentimental.
-    </string>
-
-    <string name="elcipitio">
-      Género: Masculino. \n\n
-      Edad: No se sabe \n\n
-      Carácter: Alegre, Chistoso, travieso, desordenado, infantil,  egoísta, burlón, emocional,
-      temperamental.
+    <string name="preview3">
+        ¿Por qué crees que Rosita iba con miedo? \n
+        ¿Habrán visto algo raro? \n
+        Lo sabremos muy pronto
 
     </string>
 </resources>

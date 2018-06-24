@@ -3,6 +3,7 @@
     package="com.example.alfredo.pixels">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,8 @@
         <activity android:name=".Personajes" />
         <activity android:name=".Conocenos" />
         <activity android:name=".Capitulo1" />
+        <activity android:name=".Capitulo2" />
+        <activity android:name=".Capitulo3"></activity>
     </application>
 
 </manifest>

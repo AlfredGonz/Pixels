@@ -17,4 +17,14 @@ public class VideoLeyendas extends AppCompatActivity {
         Intent intent = new Intent(VideoLeyendas.this,Capitulo1.class);
         startActivity(intent);
     }
+
+    public void capitulo2(View view) {
+        Intent intent = new Intent(VideoLeyendas.this,Capitulo2.class);
+        startActivity(intent);
+    }
+
+    public void capitulo3(View view) {
+        Intent intent = new Intent(VideoLeyendas.this,Capitulo3.class);
+        startActivity(intent);
+    }
 }

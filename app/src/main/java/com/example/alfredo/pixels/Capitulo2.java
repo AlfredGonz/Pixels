@@ -7,34 +7,21 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class Capitulo1 extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener,YouTubePlayer.PlaybackEventListener {
+public class Capitulo2 extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener,YouTubePlayer.PlaybackEventListener {
 
     String claveYoutube="AIzaSyBZPqpCDLXqRtxrScPATpjtLBxqCO2ycps";
     YouTubePlayerView youTubePlayerView;
     TextView txtV, txtv2;
-    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_capitulo1);
-/*
-        //Anuncios
-        mAdView = findViewById(R.id.adView1);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        mAdView.loadAd(adRequest);
-*/
-        youTubePlayerView=(YouTubePlayerView)findViewById(R.id.youtube_view);
-        youTubePlayerView.initialize(claveYoutube,this);
+        setContentView(R.layout.activity_capitulo2);
 
         //Cambia la fuente del texto
         txtV=(TextView)findViewById(R.id.titulo);
@@ -45,30 +32,31 @@ public class Capitulo1 extends YouTubeBaseActivity implements YouTubePlayer.OnIn
         Typeface sinopsis= Typeface.createFromAsset(getAssets(),"fonts/fuente3.ttf");
         txtv2.setTypeface(sinopsis);
 
-    }
+        youTubePlayerView=(YouTubePlayerView)findViewById(R.id.youtube_view);
+        youTubePlayerView.initialize(claveYoutube,this);
 
-         //Youtube
+    }
     @Override
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean fueRestaurado) {
-            if (!fueRestaurado){
-                youTubePlayer.cueVideo("erKmv7Uveww"); //id del video https://youtu.be/erKmv7Uveww"
-            }
+        if (!fueRestaurado){
+            youTubePlayer.cueVideo("yYdX0J0efHM"); //id del video https://youtu.be/yYdX0J0efHM"
+        }
     }
 
     @Override
     public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-            if(youTubeInitializationResult.isUserRecoverableError()){
-                youTubeInitializationResult.getErrorDialog(this,1).show();
-            }else{
-                String error = "Error al inicializar Youtube"+youTubeInitializationResult.toString();
+        if(youTubeInitializationResult.isUserRecoverableError()){
+            youTubeInitializationResult.getErrorDialog(this,1).show();
+        }else{
+            String error = "Error al inicializar Youtube"+youTubeInitializationResult.toString();
 
-                Toast.makeText(getApplication(),error,Toast.LENGTH_LONG).show();
-            }
+            Toast.makeText(getApplication(),error,Toast.LENGTH_LONG).show();
+        }
 
     }public void onActivityResult(int requestCode,int resultcode, Intent data){
 
         if (resultcode == 1){
-                getYoutubePlayerProvider().initialize(claveYoutube,this);
+            getYoutubePlayerProvider().initialize(claveYoutube,this);
         }
     }
 

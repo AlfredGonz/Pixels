@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "375454486786",
+    "firebase_url": "https://leyendas-mesoamericanas.firebaseio.com",
+    "project_id": "leyendas-mesoamericanas",
+    "storage_bucket": "leyendas-mesoamericanas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375454486786:android:a99730bef6ba315a",
+        "android_client_info": {
+          "package_name": "com.example.alfredo.pixels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375454486786-2k2fmb1aiq47m6t712ueioj96vccjn39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj3LLEQRNW1QuiQI-C19m5j-zfPdfsOzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

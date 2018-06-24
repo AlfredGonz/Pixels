@@ -26,7 +26,7 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <!--Capitulo 1: El Cipitio-->
+        <!--Capitulo 1: preview 1-->
         <android.support.v7.widget.CardView
             android:id="@+id/cardview"
             android:onClick="capitulo"
@@ -37,16 +37,17 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="5dp"
-            app:cardBackgroundColor="#896981"
+            app:cardBackgroundColor="#d33f49"
             app:cardCornerRadius="2dp"
-            app:cardElevation="2dp">
+            app:cardElevation="2dp"
+            >
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent" >
 
                 <TextView
-                    android:text="Lunes,25 junio 2018 - 16:00"
+                    android:text="Lunes,25 junio 2018 - 13:00"
                     android:textColor="#e0e0e0"
                     android:id="@+id/date_text"
                     android:layout_width="wrap_content"
@@ -76,7 +77,7 @@
                     android:gravity="center"
                     android:lines="1"
                     android:padding="8dp"
-                    android:text="CAPITULO 1: EL CIPITIO"
+                    android:text="CAPITULO 1: PREVIEW 1"
                     android:textAppearance="?android:attr/textAppearanceLargeInverse" />
 
                 <TextView
@@ -96,8 +97,9 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 2: El Cipitio-->
+        <!--Capitulo 2: preview 2-->
         <android.support.v7.widget.CardView
+            android:onClick="capitulo2"
             android:id="@+id/cardview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -164,8 +166,9 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 3: El Cipitio-->
+        <!--Capitulo 3: preview 3-->
         <android.support.v7.widget.CardView
+            android:onClick="capitulo3"
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -233,7 +236,8 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 4: El Cipitio-->
+        <!--
+        //-Capitulo 4: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -302,7 +306,7 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 5: El Cipitio-->
+        //-Capitulo 5: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -371,7 +375,7 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 6: El Cipitio-->
+        //-Capitulo 6: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -440,7 +444,7 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 7: El Cipitio-->
+        //-Capitulo 7: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -509,7 +513,7 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 8: El Cipitio-->
+        //-Capitulo 8: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -578,7 +582,7 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 9: El Cipitio-->
+        //-Capitulo 9: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -647,7 +651,7 @@
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
-        <!--Capitulo 10: El Cipitio-->
+        //-Capitulo 10: El Cipitio
         <android.support.v7.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="match_parent"
@@ -715,7 +719,7 @@
                     android:textAppearance="?android:attr/textAppearanceMedium" />
             </RelativeLayout>
         </android.support.v7.widget.CardView>
-
+-->
 
     </LinearLayout>
 
