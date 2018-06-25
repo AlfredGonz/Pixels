@@ -28,32 +28,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bandbelize"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginRight="7dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bandcostarica"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginRight="7dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bandmexico"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginRight="7dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bandhonduras"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginRight="7dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bandguatemala"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginRight="7dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/bandelsalvador"
-            android:layout_marginLeft="10dp"/>
+            />
 
     </LinearLayout>
 
@@ -67,7 +67,7 @@
 
             <Button
                 android:id="@+id/leyendas"
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
@@ -80,7 +80,7 @@
 
             <Button
                 android:id="@+id/personajes"
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
@@ -93,7 +93,7 @@
 
             <Button
                 android:id="@+id/conocenos"
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
