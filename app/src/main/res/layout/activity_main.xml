@@ -5,85 +5,126 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="230dp"
-        android:src="@drawable/logoleyen" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:src="@drawable/logoleyen"
+            />
+
+    <!--banderas-->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bandbelize"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bandcostarica"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bandmexico"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bandhonduras"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bandguatemala"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bandelsalvador"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+        <!--botones-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:drawablePadding="8dp"
                 android:id="@+id/leyendas"
-                android:textColor="@android:color/white"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
                 android:backgroundTint="#02a388 "
-                android:text="LEYENDAS"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"
-                android:onClick="Leyendas"
+                android:drawablePadding="8dp"
                 android:drawableTop="@drawable/videos"
-                />
+                android:onClick="Leyendas"
+                android:text="LEYENDAS"
+                android:textColor="@android:color/white" />
 
             <Button
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:drawablePadding="8dp"
                 android:id="@+id/personajes"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#fe423f  "
-                android:text="PERSONAJES"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"
-                android:onClick="Personajes"
-                android:drawableTop="@drawable/personajes"/>
-
-            <Button
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:drawablePadding="8dp"
-                android:id="@+id/conocenos"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#fecb2e"
-                android:text="CONOCENOS"
-                android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="#fe423f  "
+                android:drawablePadding="8dp"
+                android:drawableTop="@drawable/personajes"
+                android:onClick="Personajes"
+                android:text="PERSONAJES"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/conocenos"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="#fecb2e"
+                android:drawablePadding="8dp"
+                android:drawableTop="@drawable/conocenos"
                 android:onClick="Conocenos"
-                android:drawableTop="@drawable/conocenos"/>
+                android:text="CONOCENOS"
+                android:textColor="@android:color/white" />
+
 
         </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
 
         <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
             android:id="@+id/horizontalcycle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
-            app:icvp_scroll_duration="250"
+            android:layout_height="wrap_content"
             app:icvp_center_page_scale_offset="30dp"
-            app:icvp_min_page_scale_offset="5dp"
+            app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
             app:icvp_max_page_scale="0.8"
-            app:icvp_min_page_scale="0.55"
             app:icvp_medium_scaled="false"
-            />
-    </RelativeLayout>
+            app:icvp_min_page_scale="0.55"
+            app:icvp_min_page_scale_offset="5dp"
+            app:icvp_scroll_duration="250" />
 
 
 
-    </LinearLayout>
+
+
+</LinearLayout>
 
 
 

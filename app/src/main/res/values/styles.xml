@@ -5,7 +5,14 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#fecb2e</item>
         <item name="colorPrimaryDark">#0097a7</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#ff1744</item>
     </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_slash</item>
+    </style>
+
+    <style name="Theme">Theme</style>
+
 
 </resources>

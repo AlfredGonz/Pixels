@@ -2,11 +2,13 @@ package com.example.alfredo.pixels;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Typeface;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager;
 
@@ -19,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button leyendas, personajes, conocenos;
-
+    TextView txt;
     List<Integer> lstImages = new ArrayList<>();
 
     @Override
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter(lstImages,getBaseContext());
         pager.setAdapter(adapter);
 
+
+
     }
 
     private void initData() {
@@ -44,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         lstImages.add(R.drawable.imagen5);
         lstImages.add(R.drawable.imagen6);
         lstImages.add(R.drawable.imagen7);
+        lstImages.add(R.drawable.imagen9);
+        lstImages.add(R.drawable.imagen10);
+        lstImages.add(R.drawable.imagen11);
+
 
     }
 

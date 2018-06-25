@@ -47,7 +47,7 @@ public class Conocenos extends AppCompatActivity {
         imageView.setBackgroundResource(imagen);
 
         slide.addView(imageView);
-        slide.setFlipInterval(3000); //3 segundos
+        slide.setFlipInterval(2500); // segundos
         slide.setAutoStart(true);
 
         //animacion

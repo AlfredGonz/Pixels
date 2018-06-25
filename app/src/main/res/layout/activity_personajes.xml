@@ -22,9 +22,10 @@
             android:layout_marginBottom="5dp"
             android:layout_marginTop="16dp"
             android:text="PERSONAJES"
-            android:textColor="#fafafa"
+            android:textColor="#263238"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
         <GridLayout
             android:useDefaultMargins="true"
@@ -32,8 +33,9 @@
             android:rowCount="8"
             android:layout_weight="5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
 
             >
             //Boton Rosita
@@ -43,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:background="#ffab91"
                 android:drawableTop="@drawable/rosita"
-                android:text="rosita" />
+                android:text="rosita"
+                android:onClick="rosita"/>
 
             //Boton José
             <Button
@@ -56,7 +59,8 @@
                 android:drawableTop="@drawable/jose"
                 android:text="josé"
                 android:layout_row="0"
-                android:layout_column="1" />
+                android:layout_column="1"
+                android:onClick="jose"/>
 
             //Boton don Catalino
             <Button
@@ -65,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:background="#f7d66d"
                 android:drawableTop="@drawable/doncatalino"
-                android:text="Don catalino" />
+                android:text="Don catalino"
+                android:onClick="donCatalino"/>
 
             //Boton profesor Guzman
             <Button
@@ -73,35 +78,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#547981"
-                android:drawableTop="@drawable/personaje"
-                android:text="Profesor guzman" />
+                android:drawableTop="@drawable/profesor"
+                android:text="Profesor guzman"
+                android:onClick="profesor"/>
 
-            //Boton el Cipitio
-            <Button
-                android:id="@+id/buttonelcipitio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ff9036"
-                android:drawableTop="@drawable/elcipitio"
-                android:text="el cipitio" />
-
-            //Boton Mamá
-            <Button
-                android:id="@+id/buttonmama"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ff5254"
-                android:drawableTop="@drawable/personajef"
-                android:text="Mamá" />
-
-            //Boton Mirna
+           //Boton Mirna
             <Button
                 android:id="@+id/buttonmirna"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#ba68c8"
-                android:drawableTop="@drawable/personajef"
-                android:text="mirna" />
+                android:drawableTop="@drawable/mirna"
+                android:text="mirna"
+                android:onClick="mirna"/>
 
             //Boton Bety
             <Button
@@ -109,8 +98,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#c7f465"
-                android:drawableTop="@drawable/personajef"
-                android:text="bety" />
+                android:drawableTop="@drawable/bety"
+                android:text="bety"
+                android:onClick="bety"/>
 
 
 
